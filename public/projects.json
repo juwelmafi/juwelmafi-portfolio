@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Talkademic – Tutor Booking Platform",
+    "desc": "An online tutor booking platform featuring category-based tutor search, real-time availability.",
+    "tech": ["React", "Tailwind", "Firebase", "Node.js", "MongoDB"],
+    "img": "https://i.ibb.co/Vrzv1vt/talkademic-mock.png",
+    "screenshot": "https://i.ibb.co/sJy5GRVG/talkademic-ss.jpg",
+    "live": "https://talkademic.web.app/",
+    "client": "https://github.com/juwelmafi/talkademic",
+    "server": "https://github.com/juwelmafi/talkademic-server",
+    "details": "Talkademic is a global tutor booking platform where learners can find qualified tutors by subject or language. It features secure booking, detailed tutor profiles, reviews, and Firebase authentication. Tutors can manage their sessions, and the responsive design ensures a smooth experience across devices. Multi-country support with flag icons enhances global accessibility.",
+
+    "reverse": false
+  },
+  {
+    "id": 2,
+    "title": "Freeleza – Freelance Service Marketplace",
+    "desc": "A dynamic freelance marketplace where clients and freelancers manage projects through dedicated dashboards.",
+    "tech": ["React", "Tailwind", "Firebase", "Node.js", "MongoDB"],
+    "img": "https://i.ibb.co/9H2xD2Yv/freeleza-mock.png",
+    "screenshot": "https://i.ibb.co/3mjB4CdV/freeleza-ss.jpg",
+    "live": "https://fleeleza.web.app/",
+    "client": "https://github.com/juwelmafi/freeleza",
+    "server": "https://github.com/juwelmafi/freeleza-server",
+    "details": "Freeleza is a freelance task management platform that connects clients with freelancers through a simple bidding system. Users can post, edit, or delete tasks and view them in a dedicated dashboard. Freelancers can bid on tasks with custom offers. Tasks are sorted by deadline for easy prioritization. The app includes light/dark mode toggling for better user comfort. Built using modern web technologies for a smooth and responsive experience.",
+    "reverse": true
+  },
+  {
+    "id": 3,
+    "title": "App-Store – Find the Best Mobile Apps in One Place",
+    "desc": "A mobile app discovery platform with category-wise browsing, user reviews, and a featured section showcasing top-rated apps.",
+    "tech": ["React", "Tailwind", "JavaScript"],
+    "img": "https://i.ibb.co/9m5KQrp0/app-store-mock.png",
+    "screenshot": "https://i.ibb.co/cXcP7TJm/app-ss.jpg",
+    "live": "https://my-app-store-bfe0d.web.app/",
+    "client": "https://github.com/juwelmafi/app-store",
+    "server": "#",
+    "details": "This App Store platform simulates a real-world app discovery experience with trending app highlights, category-based browsing, and detailed app pages. Users can leave reviews and ratings, enhancing interactivity. Built with React and Firebase, the app features real-time data handling and a responsive design optimized for all devices. It was developed as a Programming Hero assignment to showcase frontend development skills.",
+    "reverse": false
+  }
+]

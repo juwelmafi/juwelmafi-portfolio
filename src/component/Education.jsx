@@ -1,0 +1,42 @@
+import React from "react";
+
+const Education = () => {
+  return (
+    <section className="bg-[#2B2B3C] text-white font-[Poppins] py-16 px-4 md:px-20">
+      <div className="max-w-5xl mx-auto">
+        {/* Heading */}
+        <h2 className="text-2xl md:text-4xl font-bold text-center mb-12">
+          Education Qualification
+        </h2>
+
+        {/* Education Timeline */}
+        <div className="grid md:grid-cols-2 gap-10 items-start relative">
+          {/* Left side */}
+          <div className="space-y-2 text-right border-b-2 md:border-b-0 pb-8 md:pb-0 md:border-r-2 border-yellow-400 pr-10">
+            <h3 className="font-semibold text-lg md:text-xl">
+              National University, Gazipur
+            </h3>
+            <p className="text-[#cccccc] text-sm">
+              B.Sc in Departement of Physics <br />
+              2024–2027 (expected)
+            </p>
+          </div>
+
+          {/* Right side */}
+          <div className="space-y-2 pl-4">
+            <h3 className="font-semibold text-lg md:text-xl">
+              Government Barhamgonj College, Shibchar
+            </h3>
+            <p className="text-[#cccccc] text-sm">
+              Higher Secondary Certificate in Science Background <br />
+              2022
+            </p>
+          </div>
+        </div>
+      </div>
+      {/* <hr className="mt-10 w-[50%] mx-auto border-yellow-400 border-2 border-dashed"/> */}
+    </section>
+  );
+};
+
+export default Education;
