@@ -10,7 +10,8 @@
     "client": "https://github.com/juwelmafi/talkademic",
     "server": "https://github.com/juwelmafi/talkademic-server",
     "details": "Talkademic is a global tutor booking platform where learners can find qualified tutors by subject or language. It features secure booking, detailed tutor profiles, reviews, and Firebase authentication. Tutors can manage their sessions, and the responsive design ensures a smooth experience across devices. Multi-country support with flag icons enhances global accessibility.",
-
+    "challenge": "I faced challenge on this project when implementing role base route and be a tutor feature.",
+    "goal": "I want to make this project more funtionable and add some extra feature.",
     "reverse": false
   },
   {
@@ -24,6 +25,8 @@
     "client": "https://github.com/juwelmafi/freeleza",
     "server": "https://github.com/juwelmafi/freeleza-server",
     "details": "Freeleza is a freelance task management platform that connects clients with freelancers through a simple bidding system. Users can post, edit, or delete tasks and view them in a dedicated dashboard. Freelancers can bid on tasks with custom offers. Tasks are sorted by deadline for easy prioritization. The app includes light/dark mode toggling for better user comfort. Built using modern web technologies for a smooth and responsive experience.",
+    "challenge": "Making dynamic dashboard was challenging for me.",
+    "goal": "I will add role based access here.",
     "reverse": true
   },
   {
@@ -37,6 +40,8 @@
     "client": "https://github.com/juwelmafi/app-store",
     "server": "#",
     "details": "This App Store platform simulates a real-world app discovery experience with trending app highlights, category-based browsing, and detailed app pages. Users can leave reviews and ratings, enhancing interactivity. Built with React and Firebase, the app features real-time data handling and a responsive design optimized for all devices. It was developed as a Programming Hero assignment to showcase frontend development skills.",
+    "challenge": "Implementing review system was challenging for me.",
+    "goal": "I will add more feature.",
     "reverse": false
   }
 ]

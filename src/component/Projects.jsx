@@ -47,25 +47,30 @@ const FeaturedProjects = ({ projects }) => {
             key={project.id}
             className={`flex flex-col overflow-hidden rounded-xl shadow-md lg:flex-row ${
               project.reverse ? "lg:flex-row-reverse" : ""
-            } bg-[#323647] lg:h-80`}
+            } bg-[#323647]`}
           >
             {/* Image */}
 
             <img
               src={project.img}
               alt={project.title}
-              className="w-full lg:h-full lg:w-1/2 h-full object-cover transition-transform duration-300 hover:scale-105"
+              className="w-full h-full lg:h-[450px] lg:w-1/2 object-cover transition-transform duration-300 hover:scale-105"
             />
 
             {/* Content */}
-            <div className="flex flex-col justify-center flex-1 p-6 md:p-10 space-y-4">
+            <div className="flex flex-col justify-center flex-1 p-6 md:p-10 space-y-1">
               <span className="text-xs uppercase text-[#FDCB6E] tracking-widest">
                 Featured Project
               </span>
               <h3 className="text-xl md:text-3xl font-bold text-white">
                 {project.title}
               </h3>
-              <p className="text-[#cccccc] text-sm md:text-base leading-relaxed">{project.desc}</p>
+              <p className="text-[#cccccc] text-sm md:text-base leading-relaxed">
+               {project.desc}</p>
+              <p className="text-[#cccccc] text-sm md:text-base leading-relaxed">
+                <span className="text-yellow-400">Challenge :</span> {project.challenge}</p>
+              <p className="text-[#cccccc] text-sm md:text-base leading-relaxed">
+              <span className="text-yellow-400">Goal : </span>  {project.goal}</p>
 
               {/* Tech Stack Badges */}
               <div className="flex flex-wrap gap-2 pt-2">
