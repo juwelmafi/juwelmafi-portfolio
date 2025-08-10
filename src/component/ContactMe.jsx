@@ -79,7 +79,7 @@ const ContactMe = () => {
               >
                 <path d="M2 3a1 1 0 011-1h2.15a1 1 0 01.99.83l.74 4.43a1 1 0 01-.54 1.06L4.79 9.1a11.03 11.03 0 006.1 6.1l.77-1.55a1 1 0 011.06-.54l4.43.74a1 1 0 01.83.99V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
               </svg>
-              <span>+880 01859797307 (WhatsApp only)</span>
+              <span>+880 01859797307</span>
             </p>
             <p className="flex items-center gap-3">
               <svg

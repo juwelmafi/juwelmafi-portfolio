@@ -10,7 +10,7 @@ import {
 import { Typewriter } from "react-simple-typewriter";
 const Header = () => {
   return (
-    <div className="text-white bg-[url('/grid.png')] bg-no-repeat bg-top max-w-7xl mx-auto flex justify-between items-center flex-col lg:flex-row">
+    <div className="text-white lg:h-screen md:bg-[url('/grid.png')] bg-no-repeat bg-top max-w-7xl mx-auto flex justify-between items-center flex-col lg:flex-row">
       {/* Left Section */}
       <div className="lg:w-[60%]  pt-10 flex md:flex-row flex-col gap-5 md:gap-0 justify-center items-center">
         <div>
@@ -91,10 +91,10 @@ const Header = () => {
         <div className="text-left font-[Poppins]">
           <p className="text-sm uppercase text-gray-400 mb-2">— Introduction</p>
           <h2 className="md:text-3xl text-xl font-semibold mb-4">
-            BSc Physics Student and Passionate {" "} 
+            Self Learner and Passionate {" "} <br></br>
             <span className="text-yellow-400 font-mono">
               <Typewriter
-                words={["Frontend Developer.", "MERN Stack Develepor", "React Developer."]}
+                words={["Frontend Developer.", "MERN Stack Develepor.", "React Developer."]}
                 loop={true}
                 cursor
                 cursorStyle="|"
@@ -109,7 +109,7 @@ const Header = () => {
             web experiences.
           </p>
           <a
-            href="https://drive.google.com/file/d/1ZxJ5bABhzMkLASel2cVwhFU7Hy0oc-2R/view?usp=sharing"
+            href="https://drive.google.com/file/d/1V8Xz-3xYxBmZKxcKkVmxJVniWfpPKmI0/view?usp=sharing"
             target="_blank"
             className="mt-4 inline-flex items-center gap-2 bg-yellow-400 hover:bg-yellow-300 text-black font-semibold text-sm px-4 py-2 rounded-md transition"
           >

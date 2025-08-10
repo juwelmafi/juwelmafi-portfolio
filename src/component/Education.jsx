@@ -2,13 +2,13 @@ import React from "react";
 
 const Education = () => {
   return (
-    <section className="bg-[#2B2B3C] text-white font-[Poppins] py-16 px-4 md:px-20">
+    <section className="bg-[#323647] text-white font-[Poppins] py-16 px-4 md:px-20">
       <div className="max-w-5xl mx-auto">
         {/* Heading */}
-        <h2 className="text-2xl md:text-4xl font-bold text-center mb-12">
-          Education Qualification
+        <h2 className="text-2xl md:text-4xl font-bold text-center mb-4">
+          Education
         </h2>
-
+      <p className="text-[#FDCB6E] uppercase text-center text-sm md:text-base tracking-widest mb-10">Academic Qualifications</p>
         {/* Education Timeline */}
         <div className="grid md:grid-cols-2 gap-10 items-start relative">
           {/* Left side */}
