@@ -15,6 +15,29 @@
     "reverse": false
   },
   {
+    "id": 4,
+    "title": "Scholar Link – Scholarship Management System",
+    "desc": "A role-based scholarship platform where students can apply, review, and track scholarships, and admins manage users, analytics, and data.",
+    "tech": [
+      "React",
+      "Tailwind",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Stripe",
+      "Firebase"
+    ],
+    "img": "https://i.ibb.co.com/Y7gYdDdK/scholar-mock.jpg",
+    "screenshot": "https://i.ibb.co/9N8NZ7y/scholarlink-ss.jpg",
+    "live": "https://scholar-link.web.app/",
+    "client": "https://github.com/juwelmafi/scholar-link-client",
+    "server": "https://github.com/juwelmafi/scholar-link-server",
+    "details": "Scholar Link is a full-stack scholarship management system featuring user, moderator, and admin roles. Students can apply with Stripe payments, add reviews, and track application status. Moderators manage scholarships and feedback, while admins handle users and analytics. Built with React, Node, MongoDB, and Firebase for real-time, responsive interaction.",
+    "challenge": "Handling role-based dashboards and analytics data visualization.",
+    "goal": "Add JWT auth and real-time notifications.",
+    "reverse": true
+  },
+  {
     "id": 2,
     "title": "Freeleza – Freelance Service Marketplace",
     "desc": "A dynamic freelance marketplace where clients and freelancers manage projects through dedicated dashboards.",
