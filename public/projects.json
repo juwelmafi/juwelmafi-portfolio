@@ -28,7 +28,7 @@
       "Firebase"
     ],
     "img": "https://i.ibb.co.com/Y7gYdDdK/scholar-mock.jpg",
-    "screenshot": "https://i.ibb.co/9N8NZ7y/scholarlink-ss.jpg",
+    "screenshot": "https://i.ibb.co.com/gLb5Yvzy/scholerlink.jpg",
     "live": "https://scholar-link.web.app/",
     "client": "https://github.com/juwelmafi/scholar-link-client",
     "server": "https://github.com/juwelmafi/scholar-link-server",
@@ -36,6 +36,21 @@
     "challenge": "Handling role-based dashboards and analytics data visualization.",
     "goal": "Add JWT auth and real-time notifications.",
     "reverse": true
+  },
+  {
+    "id": 2,
+    "title": "Easy House – House Rental Platform(Next.js)",
+    "desc": "A full-stack house rental platform featuring property exploration, secure booking system, and real-time availability management.",
+    "tech": ["Next.js", "React", "Tailwind CSS", "MongoDB", "NextAuth"],
+    "img": "https://i.ibb.co.com/7dVs27jC/easy-house.jpg",
+    "screenshot": "https://i.ibb.co.com/jktqM2xs/easy-house-ss.jpg",
+    "live": "https://easy-house.vercel.app/",
+    "client": "https://github.com/yourusername/easy-house",
+    "server": "https://github.com/yourusername/easy-house-api",
+    "details": "Easy House is a modern house rental platform that enables users to browse available properties, view detailed listings, and book their preferred homes. The platform features secure authentication with both email/password and Google Sign-in, a personalized user dashboard for managing bookings, and a seamless responsive design built with Tailwind CSS. The application uses MongoDB for efficient data management and is deployed on Vercel for optimal performance.",
+    "challenge": "Implementing secure authentication flow with multiple providers using NextAuth for the first time was challenging.",
+    "goal": "Implement payment system and work with UI",
+    "reverse": false
   },
   {
     "id": 2,
