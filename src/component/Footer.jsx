@@ -20,7 +20,7 @@ const Footer = () => {
             </h2>
             <p className="text-gray-400 text-sm">MERN Stack Developer</p>
             <a
-              href="https://drive.google.com/file/d/1V8Xz-3xYxBmZKxcKkVmxJVniWfpPKmI0/view?usp=sharing"
+              href="https://drive.google.com/file/d/1NyyfiNHplq8Dy3rrW8qe_1fTP97MqJfE/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 bg-yellow-400 hover:bg-yellow-300 text-black font-semibold text-sm px-5 py-2.5 rounded-lg shadow transition-all duration-300 hover:scale-105"
